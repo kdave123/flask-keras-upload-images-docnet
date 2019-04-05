@@ -6,9 +6,10 @@ Code for DOcNet Deployed Appplication (ipynb )
 
 Using FLask on Jupyter Notebook
 
-Upload images or capture from webcam (q to select  webcam frame)
+1.Upload images or capture from webcam (q to select  webcam frame and end webcam)
 
-Inference( Keras pretrained model)
-OCR on Documents ( Try to extract Number ,currently only for Aadhar)
+2.Inference( Load Keras pretrained model)
 
-Display classification results to HTML page
+3.OCR on Documents ( Try to extract Number ,currently only for Aadhar)
+
+4.Display classification results to HTML page
