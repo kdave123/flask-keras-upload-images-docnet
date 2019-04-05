@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Intro</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="static/bootstrap.min.css" rel="stylesheet" media="screen">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Online Portal Verification!</h2>
+      <br>
+      
+
+	<form action="/upload" method="post" enctype="multipart/form-data" >
+      <span class="btn btn-default btn-file">
+        Browse <input type="file" name="image">
+      </span>
+
+   	 <input type="submit" value="Upload your image" class="btn btn-primary">
+ 	 </form>
+
+	<form action="/capture" method="" enctype="multipart/form-data" >
+   	 <input type="submit" value="Capture Image" class="btn btn-primary">
+ 	 </form>
+
+<img src="{{ user_image }}" alt="User Image" height="280" width="512">
+<div style="font-size:50px;">{{ output }}</div>
+<div style="font-size:40px;">{{ no }}</div>
+<div style="font-size:20px;">{{ info }}</div>
+
+    </div>
+  </body>
+</html>
