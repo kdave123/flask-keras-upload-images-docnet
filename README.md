@@ -2,7 +2,7 @@
 (Classification of Aadhar and PAN)
 Deploy uploaded Image Classification on flask using Keras pretrained model. 
 
-Code for DocNet Deployed Appplication (ipynb )
+Code for DocNet Webapp Deployed Appplication (ipynb )
 
 Using FLask on Jupyter Notebook
 
