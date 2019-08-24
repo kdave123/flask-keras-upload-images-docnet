@@ -1,5 +1,5 @@
 Flask==1.0.2
 opencv_python==4.0.0.21
 numpy==1.15.1
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 Keras==2.2.4
